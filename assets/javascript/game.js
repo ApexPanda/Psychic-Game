@@ -25,8 +25,8 @@ var alphabet = ["a",
 				"z"];
 var wins = 0;
 var losses = 0;
-var left = 9;
-var guesses = 9;
+var left = 10;
+var guesses = 10;
 var guessesSoFar = [];
 var psychicLetter;
 
