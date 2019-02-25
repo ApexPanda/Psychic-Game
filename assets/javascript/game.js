@@ -60,12 +60,16 @@ document.onkeyup = function(event) {
     if (left > 0) {
         if (userGuess == psychicLetter) {
         	wins++;
-        	document.getElementById("wins").innerHTML = "Wins:" + wins;
+			document.getElementById("wins").innerHTML = "Wins:" + wins;
+			alert("You got it, the letter was: " + psychicLetter);
+			console.log(psychicLetter);
             newGame();
         }
     } else if (left == 0) {
     	losses++;
-    	document.getElementById("losses").innerHTML = "Losses:" + losses;
+		document.getElementById("losses").innerHTML = "Losses:" + losses;
+		alert("The letter was: " + psychicLetter);
+		console.log(psychicLetter);
         newGame();
     }
 };
