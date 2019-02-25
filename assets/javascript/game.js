@@ -36,7 +36,7 @@ var newLetter = function() {
 };
 
 var soFar = function() {
-	document.getElementById("guesses").innerHTML = "Guesses so far:<br>" + guessesSoFar.join(" , ");
+	document.getElementById("guesses").innerHTML = "Guesses so far:<br>" + guessesSoFar.join("<br>");
 };
 
 var guessesLeft = function() {
