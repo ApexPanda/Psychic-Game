@@ -34,6 +34,7 @@ var psychicLetter;
 var newLetter = function() {
     psychicLetter = alphabet[Math.floor(Math.random() * alphabet.length)];
 };
+newLetter()
 
 var soFar = function() {
 	document.getElementById("guesses").innerHTML = "Guesses so far:<br>" + guessesSoFar.join("<br>");
